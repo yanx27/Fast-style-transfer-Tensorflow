@@ -3,9 +3,9 @@
 #
 >>	主要参考文献为李飞飞的《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》<br> 
 #
->>*训练数据，8W多 12G<br> 	
+>>* 训练数据，8W多 12G<br> 	
 [数据链接](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)  <br> 
->>*VGG训练好的模型<br> 
+>>* VGG训练好的模型<br> 
 [训练好的VGG-19链接](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)  <br> 
 >>把这两个下载好了之后放在新创建的data文件夹里<br> 
 #
