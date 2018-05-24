@@ -10,9 +10,9 @@
 
 >>把这两个下载好了之后放在新创建的data文件夹里<br> 
 #
-运行参数：<br> 
-python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./<br> 
-填上模型名称（文件夹），输入的图片路径和输出路径
+>>运行参数：<br> 
+>>python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./<br> 
+>>填上模型名称（文件夹），输入的图片路径和输出路径
 #
 图像风格转换
 -------
