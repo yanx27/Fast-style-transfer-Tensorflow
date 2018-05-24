@@ -11,7 +11,7 @@
 >>把这两个下载好了之后放在新创建的data文件夹里<br> 
 #
 >>运行参数：<br> 
-```python
+```
 python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
 ```
 >>填上模型名称（文件夹），图片的输入路径和输出路径
