@@ -18,7 +18,7 @@ python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg
 #
 图像风格转换
 -------
-![](https://github.com/yanx27/Fast-style-transfer-based-on-Tensorflow/blob/master/examples/results/stata_udnie.jpg)  
+![](https://github.com/yanx27/Fast-style-transfer-based-on-Tensorflow/blob/master/examples/results/sysu.jpg)  
 >>	* 以目前的深度学习技术，如果给定两张图像，完全有能力让计算机识别出图像具体内容。而图像的风格是一种很抽象的东西，人眼能够很有效地的辨别出不同画家不同流派绘画的风格，而在计算机的眼中，本质上就是一些像素，多层网络的实质其实就是找出更复杂、更内在的特性(features)，所以图像的风格理论上可以通过多层网络来提取图像里面可能含有的一些有意思的特征。<br> 
 >>	* 快速风格迁移的网络结构包含两个部分。一个是“生成网络”（Image Transform Net），一个是“损失网络”（Loss Network）。生成网络输入层接收一个输入图片，最终输出层输出也是一张图片（即风格转换后的结果）。模型总体分为两个阶段，训练阶段和执行阶段。模型如图所示。 其中左侧是生成网络，右侧为损失网络。<br> 
 >>	* 训练阶段：选定一张风格图片。训练过程中，将数据集中的图片输入网络，生成网络生成结果图片y，损失网络提取图像的特征图，将生成图片y分别与目标风格图片ys和目标输入图片（内容图片）yc做损失计算，根据损失值来调整生成网络的权值，通过最小化损失值来达到目标效果。<br> 
