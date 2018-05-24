@@ -13,7 +13,7 @@ import subprocess
 import numpy
 
 start_time = time.time()
-# python evaluate.py --checkpoint ./model/udnie2 --in-path ./examples/content/sysu.jpg --out-path ./
+# python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
 # tensorflow新版本不会生成.ckpt文件，你只要将这四个文件放入一个文件夹并命名，测试时直接调用这个文件夹就行了，这就相当于旧版本的.ckpt文件
 BATCH_SIZE = 4
 DEVICE = '/gpu:0'
@@ -272,6 +272,3 @@ end_time = time.time()
 delta_time = end_time - start_time
 print(delta_time)
 
-#wave: 96
-#wave1:60
-#wave2:105
