@@ -3,6 +3,11 @@
 #
 >>	主要参考文献为李飞飞的《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》<br> 
 #
+>>训练数据，8W多 12G	[数据](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)  <br> 
+>>VGG训练好的模型	[训练好的VGG](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)  <br> 
+
+>>把这两个下载好了之后放在新创建的data文件夹里<br> 
+#
 图像风格转换
 -------
 >>	* 以目前的深度学习技术，如果给定两张图像，完全有能力让计算机识别出图像具体内容。而图像的风格是一种很抽象的东西，人眼能够很有效地的辨别出不同画家不同流派绘画的风格，而在计算机的眼中，本质上就是一些像素，多层网络的实质其实就是找出更复杂、更内在的特性(features)，所以图像的风格理论上可以通过多层网络来提取图像里面可能含有的一些有意思的特征。<br> 
