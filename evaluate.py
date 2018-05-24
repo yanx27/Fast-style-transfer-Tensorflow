@@ -272,6 +272,3 @@ end_time = time.time()
 delta_time = end_time - start_time
 print(delta_time)
 
-#wave: 96
-#wave1:60
-#wave2:105
