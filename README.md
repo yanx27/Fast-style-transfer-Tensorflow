@@ -1,4 +1,4 @@
-﻿基于Tensorflow的图像风格迁移
+﻿基于Tensorflow的快速图像风格迁移
 ====  
 #
 >>	主要参考文献为李飞飞的《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》<br> 
