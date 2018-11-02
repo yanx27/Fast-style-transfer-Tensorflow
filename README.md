@@ -14,11 +14,11 @@
 python style.py --checkpoint ./model --style ./style/xxx.jpg 
 ```
 #
->测试已有模型：（下载Release中的模型并放在model文件夹里）<br> 
+>测试已有模型：（下载release中的模型并放在model文件夹里）<br> 
 ```
 python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
 ```
->填上模型名称（文件夹），图片的输入路径和输出路径
+>填上模型名称、图片的输入路径和输出路径
 #
 图像风格迁移
 -------
