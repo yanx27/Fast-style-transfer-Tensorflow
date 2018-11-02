@@ -10,7 +10,7 @@
 
 >把这两个下载好了之后放在新创建的data文件夹里<br> 
 #
->运行参数：<br> 
+>运行参数：（下载Release中的模型并放在model文件夹里）<br> 
 ```
 python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
 ```
