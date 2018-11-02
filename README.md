@@ -8,9 +8,9 @@
 >* 训练好的VGG-19模型<br> 
 [VGG-19链接](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)  <br> 
 
->把这两个下载好了之后放在新创建的data文件夹里<br> 
+>把这两个文件下载好了之后放在data文件夹里训练<br> 
 #
->运行参数：（下载Release中的模型并放在model文件夹里）<br> 
+>运行已有模型：（下载Release中的模型并放在model文件夹里）<br> 
 ```
 python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
 ```
