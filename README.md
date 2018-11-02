@@ -10,7 +10,7 @@
 
 >把这两个文件下载好了之后放在data文件夹里<br> 
 #
->训练模型:
+>训练模型
 ```
 python style.py --checkpoint ./model --style ./style/xxx.jpg 
 ```
