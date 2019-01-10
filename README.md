@@ -4,12 +4,12 @@
 ## Reference
 >	 'Perceptual Losses for Real-Time Style Transfer and Super-Resolution' by Li Feifei <br> 
 ## Data
->* VOC2014<br> 	
+* VOC2014<br> 	
 [here](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)  <br> 
->* Pretrain VGG-19<br> 
+* Pretrain VGG-19<br> 
 [here](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)  <br> 
 
->Download them and put in `./data`<br> 
+Download them and put in `./data`<br> 
 ## Training
 ```
 python style.py --checkpoint ./model --style ./style/xxx.jpg 
