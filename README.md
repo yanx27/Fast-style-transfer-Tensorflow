@@ -19,6 +19,5 @@ python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg
 ```
 
 ## Results
--------
 ![](https://github.com/yanx27/Fast-style-transfer-based-on-Tensorflow/blob/master/examples/results/sysu.jpg)  
 
