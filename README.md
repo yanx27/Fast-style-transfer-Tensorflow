@@ -1,8 +1,7 @@
 # Perceptual Losses for Real-Time Style Transfer and Super-Resolution
 
-
 ## Reference
->	 'Perceptual Losses for Real-Time Style Transfer and Super-Resolution' by Li Feifei <br> 
+[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155) <br> 
 ## Data
 * VOC2014<br> 	
 [here](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)  <br> 
