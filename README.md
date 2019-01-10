@@ -1,4 +1,4 @@
-# Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+# Neural Style Transfer
 
 ## Reference
 [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155) <br> 
