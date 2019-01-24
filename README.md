@@ -7,10 +7,12 @@
 [here](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)  <br> 
 * Pretrain VGG-19<br> 
 [here](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)  <br> 
-* Pretrain weight<br> 
-See `release` <br> 
+
 
 Download them and put in `./data`<br> 
+
+* Pretrain weight<br> 
+See `release` <br> 
 ## Training
 ```
 python style.py --checkpoint ./model --style ./style/xxx.jpg 
