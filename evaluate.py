@@ -14,7 +14,6 @@ import numpy
 
 start_time = time.time()
 # python evaluate.py --checkpoint ./model/xxx --in-path ./examples/content/xxx.jpg --out-path ./
-# tensorflow新版本不会生成.ckpt文件，你只要将这四个文件放入一个文件夹并命名，测试时直接调用这个文件夹就行了，这就相当于旧版本的.ckpt文件
 BATCH_SIZE = 4
 DEVICE = '/gpu:0'
 
