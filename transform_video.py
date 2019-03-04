@@ -80,7 +80,7 @@ def main():
             '-vcodec', 'mpeg4',
             '-r', str(fr),
             opts.out
-        ]
+        ] 
 
         subprocess.call(" ".join(out_args), shell=True)
         print('Video at: %s' % opts.out)
