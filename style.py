@@ -1,45 +1,27 @@
 from __future__ import print_function
 import sys, os, pdb
 sys.path.insert(0, 'src')
-#将src文件夹中的代码引进
 import numpy as np, scipy.misc
-#用于读取图像数据
 from optimize import optimize
-#迭代优化文件
 from argparse import ArgumentParser
-#方便在命令行中解析（参数解析）
 from utils import save_img, get_img, exists, list_files
-#工具
 import evaluate
-#评估
 
-#--checkpoint-dir ./model/ --style ./style/udnie.jpg
 
 CONTENT_WEIGHT = 7.5e0
-#内容权重
 STYLE_WEIGHT = 1e2
-#风格权重
 TV_WEIGHT = 2e2
-#全变差损失（正则化）
-
 LEARNING_RATE = 1e-3
-#学习率
 NUM_EPOCHS = 3
-#训练次数
 CHECKPOINT_DIR = 'checkpoints'
-#模型保存路径
 CHECKPOINT_ITERATIONS = 2000
-#迭代次数
 VGG_PATH = 'data/imagenet-vgg-verydeep-19.mat'
-#VGG路径
 TRAIN_PATH = 'data/train2014'
-#训练数据
 BATCH_SIZE = 10
-#一次迭代多少张
 DEVICE = '/gpu:0'
 FRAC_GPU = 1
 
-#建立命令行参数解析
+
 def build_parser():
     parser = ArgumentParser()
     parser.add_argument('--checkpoint-dir', type=str,
