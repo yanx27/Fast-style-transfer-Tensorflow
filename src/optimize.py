@@ -58,7 +58,7 @@ def optimize(content_targets, style_target, content_weight, style_weight,
             preds = transform.net(X_content/255.0)
             preds_pre = vgg.preprocess(preds)
 
-        net = vgg.net(vgg_path, preds_pre)
+        net = vgg.net(vgg_path, preds_pre) 
 
         content_size = _tensor_size(content_features[CONTENT_LAYER])*batch_size
         assert _tensor_size(content_features[CONTENT_LAYER]) == _tensor_size(net[CONTENT_LAYER])
